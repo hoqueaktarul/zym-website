@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            /* font-family: 'Lato', sans-serif; */
+   padding: 0px;
+   margin: 0px;
+   background: url('images/backphoto.jpg');
+   height: 900px;
+
+   color: white;
+   }
+   .left{
+       position: absolute;
+       /* border: 2px solid red; */
+       display: inline-block;
+       left: 34px;
+       top: 20px;
+
+   }
+   .mid{
+    font-family: 'Lato', sans-serif;
+       /* border: 2px solid blue; */
+       display: block;
+       width: 50%;
+       margin: 20px auto;
+   }
+   .right{
+       /* border: 2px solid aqua; */
+       position: absolute;
+       display: inline-block;
+       right: 34px;
+       top: 20px;
+   }
+   .navbar{
+       display: inline-block;
+   }
+   .navbar li{
+       display: inline-block;
+       font-size: 25px;
+
+   }
+   .navbar li a{
+       text-decoration: none;
+       color: white;
+       padding: 15px 15px;
+   }
+   .navbar li a:hover , .navbar li a.active{
+       text-decoration: underline;
+       color: gray;
+   }
+   .left img{
+       width: 130px;
+       filter: invert(100%);
+   }
+   .left div{
+       text-align: center;
+       font-size: 25px;
+       font-weight: 600;
+       color:rgb(252, 248, 248);
+   }
+   .btn{
+       margin:10px 10px ;
+       padding: 7px 18px 7px 18px;
+       background: black;
+       color: white;
+       border: 4px solid gray;
+       border-radius: 10px;
+       font-size: 15px;
+   }
+   .btn:hover{
+       color: rgb(121, 10, 10);
+       background: gray;
+   }
+   .offer{
+       border: 4px solid rgb(10, 151, 22);
+       margin-top: 200px;
+       display: block;
+       width: 35%;
+       margin: 100px auto;
+       margin-right: 100px;
+       text-align: center;
+      color: red;
+       font-size: 25px;
+       font-weight: 600;
+       padding: 15px 50px;
+       background: black;
+
+   }
+   .offer div span{
+    font-size: 35px;
+       font-weight: 800;
+       color: green;
+   }
+   .text{
+       color: green;
+   }
+   .submit:hover{
+       background: black;
+       color: white;
+   }
+    </style>
+ 
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/images.png" alt="error">
+            <div>Vozet Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li><a href="#"></a>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Join</button>
+        </div>
+    </header>
+    <section class="offer">
+        <div class="text"><span>Offer</span>  piriod going on, Contact now</div>
+        <form action="">
+            <div>Name
+                <input type="text" placeholder="your name">
+            </div>
+            <div>mobile no
+                <input type="text" placeholder="mobile no">
+            </div>
+            <div>Address
+                <input type="text" placeholder="enter your address">
+            </div>
+            <button class="submit">submit</button>
+        </form>
+    </section>
+</body>
+</html>
